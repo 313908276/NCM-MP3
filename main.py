@@ -8,7 +8,7 @@ from Crypto.Cipher import AES
 
 def dump(Out_file_path,In_file_dir):
     """
-    刘聪
+    刘聪，张璟
     :param Out_file_path:
     :param In_file_dir:
     :return:
