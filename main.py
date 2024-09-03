@@ -65,7 +65,7 @@ def dump(Out_file_path,In_file_dir):
             chunk[i-1] ^= key_box[(key_box[j] + key_box[(key_box[j] + j) & 0xff]) & 0xff]
         m.write(chunk)
     m.close()
-    f.close()
+    f.close()4tfrgtrg
 
 
 def file_name(Out_file_dir,In_file_dir):
