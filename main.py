@@ -7,6 +7,12 @@ from Crypto.Cipher import AES
 
 
 def dump(Out_file_path,In_file_dir):
+    """
+    刘聪
+    :param Out_file_path:
+    :param In_file_dir:
+    :return:
+    """
     core_key = binascii.a2b_hex("687A4852416D736F356B496E62617857")
     meta_key = binascii.a2b_hex("2331346C6A6B5F215C5D2630553C2728")
     unpad = lambda s : s[0:-(s[-1] if type(s[-1]) == int else ord(s[-1]))]
